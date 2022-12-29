@@ -367,9 +367,15 @@ img {
   justify-content: space-between;
   list-style: none;
 }
-.team-icons {
+
+.icon-list {
   width: 40px;
   height: 40px;
+}
+
+.team-icons {
+  width: 100%;
+  height: 100%;
   border-radius: 50%;
   background-color: var(--primary-brand-color);
   fill: var(--secondary-bg-color);
@@ -518,18 +524,16 @@ img {
   margin-bottom: 120px;
 }
 
-.portfolio .item {
+.portfolio-link {
+  display: block;
+  text-decoration: none;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
   overflow: hidden;
 }
 
-.portfolio .item:hover {
+.portfolio-link:hover {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
   0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-}
-
-.portfolio-link {
-  text-decoration: none;
 }
 
 .portfolio-title {
@@ -566,7 +570,6 @@ img {
 .page-footer {
   padding-top: 100px;
   padding-bottom: 100px;
-  padding-left: 156px;
   padding-right: auto;
   background-color: var(--title-text-color);
 }
@@ -624,9 +627,16 @@ img {
   justify-content: space-between;
   list-style: none;
 }
-.footer-icons {
+
+.footer-items {
   width: 40px;
   height: 40px;
+}
+ 
+
+.footer-icons {
+  width: 100%;
+  height: 100%;
   border-radius: 50%;
   background: rgba(255, 255, 255, 0.1);
   fill: var(--secondary-bg-color);
